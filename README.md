@@ -1,4 +1,4 @@
-# Windows Debloater
+# Windows Debloater and System Cleaner
 
 Original PowerShell GUI tool for Windows privacy & debloating. Built over 8 months with AI assistance.
 
