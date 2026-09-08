@@ -1,6 +1,11 @@
-# Windows Debloater and System Cleaner
+# Windows 11/10 Debloater & System Cleaner
+![Windows](https://img.shields.io/badge/Windows-11-0078D4) ![PowerShell](https://img.shields.io/badge/PowerShell-5.1-5391FE) ![License](https://img.shields.io/badge/License-MIT-green)
+> **1-click PowerShell GUI** removes OneDrive/Xbox/Copilot bloat, disables 	elemetry services, applies privacy registry, Group Policy refresh, cleans 	emp — live status GUI.
 
-Original PowerShell GUI tool for Windows privacy & debloating, and system cleaning. Built over 8 months with AI assistance.
+![GUI Screenshot](Windows-Debloater-and-System-Cleaner_GUI.png)
+
+## Download (EXE, no PS1 needed)
+**Releases** → Windows Debloater.exe gear+broom 1024 icon — Right-click → **Run as Administrator**.
 
 ## What it does
 - Disables telemetry / telemetry services
@@ -12,22 +17,13 @@ Original PowerShell GUI tool for Windows privacy & debloating, and system cleani
 
 ## Requirements
 - Windows 10/11
-- Administrator rights (`#Requires -RunAsAdministrator`)
+- Administrator rights (\#Requires -RunAsAdministrator\)
 - PowerShell 5.1+
 
-## ⚠️ Disclaimer / Warning
-- **Use at your own risk.** This script disables Windows services and removes pre-installed applications. It may break features you rely on (OneDrive sync, Xbox Live, Copilot, etc.). It also cleans up temp files.
-
-- Not intended for critical production systems without validation.
-
 ## Usage
-```powershell
-# Right-click -> Run with PowerShell (as Administrator)
+Right-click Windows Debloater.exe → **Run as Administrator**
+# or PS1
 .\"Windows-Debloater-and-System-Cleaner.ps1"
-```
 
 ## License
 MIT License — use, modify, and distribute freely. Original work by author; AI-assisted development.
-
-## Note on false positives
-Debloat scripts often trigger antivirus / Windows Defender warnings because they modify the OS. The script contains no external downloads, no `Invoke-WebRequest` payloads, and no encoded malicious commands.
